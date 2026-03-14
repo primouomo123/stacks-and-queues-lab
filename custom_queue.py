@@ -6,9 +6,7 @@ class Queue:
 
     def enqueue(self, item):
         # TODO: Add an item to the end of the queue
-        print(f"Enqueue count...")
         self.items.append(item)
-        print(f"Queue contains {len(self.items)} customers")
 
     def dequeue(self):
         # TODO: Remove and return the item from the front of the queue
